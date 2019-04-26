@@ -1,25 +1,24 @@
-# Hackintosh-Z370
+# ASRock-Z370-ITX/ac
 
-本仓库仅作为文件存储。
+## 截图
 
-![信息](https://s2.ax1x.com/2019/03/17/AeTUsI.png)
+![屏幕截图](https://s2.ax1x.com/2019/04/26/Enfj8x.png)
+
+
 
 ## 配置
 
-- MacOS Mojave 10.14.3(Build 18D109)
-- SMBIOS：Macmini8,1
-- 主板：华擎Z370M-ITX/ac
+- macOS 10.14.5 (Build 18F118d)
+- SMBIOS：iMac19,2
+- 主板：ASRock-Z370-ITX/ac
 - CPU：Intel Core i5-8400
-- 核显：Intel UHD Graphics 630
-- 独显：暂无
+- 显卡：Sapphire RX 590 8G
 - 内存：海盗船复仇者 DDR4 3200 8G*2
 - 固态硬盘：三星 SSD 960 EVO 250GB（Windows）
 - 固态硬盘：三星 SSD 860 EVO 250GB（macOS）
 - 电源：安钛克额定500W EAG500 PRO 模组电源
-- 机箱：追风者 P300
-- 鼠标🖱：罗技G102
-- 键盘⌨️：ikbc C-104
-- 显示器🖥：AOC 1080p
+
+
 
 ## 工作
 
@@ -31,6 +30,16 @@ wifi无解，也没有去换。不需要wifi，必要时可以使用USB WIFI`COM
 
 其他一切正常。
 
+
+
 ## GeekBench
 
-![GeekBench](https://s2.ax1x.com/2019/03/17/AeTNQA.png)
+![EnhFIA.png](https://s2.ax1x.com/2019/04/26/EnhFIA.png)
+
+
+
+
+
+
+
+![Enhiad.png](https://s2.ax1x.com/2019/04/26/Enhiad.png)
