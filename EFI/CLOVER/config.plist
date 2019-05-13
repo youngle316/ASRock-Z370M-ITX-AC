@@ -166,7 +166,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -218,46 +218,6 @@
 		<false/>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>change 15 port limit to 26 in XHCI kext for 10.14 beta2</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g/sPD4MDBQA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14,10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/saD4MDBQA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>disable USB Port Limit Patch (PMheart) for 10.14 beta2</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				g/sPD4MDBQAA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14,10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g/sPkJCQkJCQ
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14 beta10</string>
@@ -322,7 +282,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02921100GUKGQGFB</string>
+		<string>C02920405J9KGQGUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -352,7 +312,7 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02YRRYKJWDW</string>
+		<string>C02YQ6ZUJWDW</string>
 		<key>SmUUID</key>
 		<string>25D2C027-11D4-5B21-A0AC-1BC7F919E566</string>
 		<key>Version</key>
