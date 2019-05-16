@@ -129,11 +129,11 @@ use the Hackintool to make a USBPorts. No case usb ports
 
 使用Hackintool创建一个了USBPorts。没有用机箱端口
 
-![usb](./pic/usbport.png)
+![usb](./pic/USBPort.png)
 
-![usb](./pic/usb2.png)
+![usb](./pic/USB2.png)
 
-![usb](./pic/usb3.png)
+![usb](./pic/USB3.png)
 
 
 
