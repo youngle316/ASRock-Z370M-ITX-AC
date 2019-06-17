@@ -13,11 +13,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<false/>
+				<true/>
 				<key>FixDarwin</key>
 				<false/>
 				<key>FixDisplay</key>
-				<false/>
+				<true/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixShutdown</key>
@@ -35,19 +35,27 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -92,7 +100,7 @@
 		<key>StrictHibernate</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>6</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -111,6 +119,28 @@
 			<false/>
 			<key>Inject</key>
 			<integer>1</integer>
+		</dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCSPg==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device-id</key>
+				<data>
+				kj4AAA==
+				</data>
+				<key>device_type</key>
+				<string>Display controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>UHD Graphics 630 (Desktop)</string>
+			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -174,7 +204,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>PatchVBios</key>
 		<false/>
@@ -201,9 +231,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -212,11 +246,13 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.14 beta10</string>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14 beta10</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>dkBI/wVi9Ac=</data>
+				<data>
+				dkBI/wVi9Ac=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -224,7 +260,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelCFLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>60BI/wVi9Ac=</data>
+				<data>
+				60BI/wVi9Ac=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -232,13 +270,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -248,13 +290,66 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02918500GUKGQGJC</string>
 		<key>ROM</key>
-		<data>J5oRGeVm</data>
+		<data>
+		vJXFWqZf
+		</data>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>02/18/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>IM192.88Z.F000.B00.1902181222</string>
+		<key>Board-ID</key>
+		<string>Mac-63001698E7A34814</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02918500GUKGQGJC</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>iMac-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.250.368.0.0</string>
+		<key>Family</key>
+		<string>iMac</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x00</string>
+		<key>ProductName</key>
+		<string>iMac19,2</string>
+		<key>SerialNumber</key>
+		<string>C02YN0D9JWDW</string>
+		<key>SmUUID</key>
+		<string>8A13DBFC-930E-49D4-A4B6-1A72005AA65F</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>25D2C027-11D4-5B21-A0AC-1BC7F919E566</string>
+		<string>44047306-FFE1-5AED-ACFD-5A8456D4E52F</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

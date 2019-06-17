@@ -4,92 +4,60 @@
 
 ## 更新日志
 
+### 2019-06-16
+
++ Update `CLover` 4961
+
++ Update `Lilu` v1.3.6
++ Update `WhateeverGreen` v1.2.9
++ Update `AppleALC` v1.3.8
++ Update `CPUFriengd` v1.1.7
++ Change `FakeSMC` to `VirtualSMC`
++ Add `SMCProcessor.kext`
++ Add `SMCSuperIO.kext`
+
 ### 2019-05-17
 
-+ 初次提交 👨‍💻‍
++ 初次提交 
 
 
 
-## 🖥Snapshot / 快照
+## 快照
 
 ![关于本机](./pic/关于本机.png)
 
 
 
-## 💻Hardware / 硬件
+## 配置
 
-- macOS 10.14.5
-- iMac19,2
-- ASRock-Z370m-ITX/ac
-- Intel Core i5-8400
-- Sapphire RX 590 8G
-- Corsair LPX DDR4 3200 8G*2
-- Samsung SSD 960 EVO 250GB（Windows）
-- Samsung SSD 860 EVO 250GB（macOS）
-- Antec 500W EAG500 PRO Power
-- Broadcom-BCM94352z—dw1560
-- AOC 1080p monitor
+| 名称   | 详情                           |
+| ------ | ------------------------------ |
+| 主板   | 华擎Z370m-ITX/ac               |
+| 处理器 | 英特尔酷睿 i5-8400             |
+| 内存条 | 海盗船复仇者LPX DDR4 3000 8G*2 |
+| 显卡   | 蓝宝石RX590                    |
+| 硬盘1  | 三星960EVO 250G (windows)      |
+| 硬盘2  | 三星860EVO 250G (macos)        |
+| 硬盘3  | HHD 500G (存储与TimeMachine)   |
 
 
 
-## 📚Use / 使用
+## 不工作
 
-Download this rep EFI, and replace yours.
++ 睡眠会立即唤醒
++ iMessage和FaceTime不可用
 
-**Please to create a new serial number.**
-
-
-
-下载这个仓库的EFI，并替换成你的EFI。
-
-**请自己创建一个新的序列号**
+总的来说，不完美，不过影响不大。
 
 
 
-## 🔖kext / kext
+## 工作
 
-1. [DW1560(Bluetooth and wifi)](<https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html>)
-   + AirportBrcmFixup.kext
-   + BrcmFirmwareData.kext
-   + BrcmPatchRAM2.kext
-2. Audio
-   + AppleALC.kext
-   + Lilu.kext
-3. CPU
-   + CPUFriend.kext
-   + Lilu.kext
-4. USB
-   + USBPorts.kext
-5. GPU
-   + WhateverGreen.kext    (RX590 need it)
-6. Network port
-   + SmallTree-Intel-211-AT-PCIe-GBE.kext
+除了不工作的，一切正常。
 
 
 
-## 🔧what works / 工作
-
-+ Audio
-+ Bluetooth
-+ wifi
-+ Ethernet
-+ Airdrop
-+ USB
-+ ...
-
-
-
-## 🔧what doesn't work / 不工作
-
-+ sleep
-
-Wake up immediately after sleep。Guess is the USB port problem，but the port already Internal.
-
-睡眠后立刻唤醒，如果不插键鼠USB没有问题，可是键鼠USB端口已经内建了。不知道原因是什么❓
-
-
-
-## 🏃GeekBench / 跑分
+## 跑分
 
 ![CPU-G](./pic/CPU.png)
 
@@ -99,7 +67,7 @@ Wake up immediately after sleep。Guess is the USB port problem，but the port a
 
 
 
-## Blutbooth / 蓝牙
+## 蓝牙
 
 Blutbooth is ok! 👌
 
@@ -109,11 +77,7 @@ Blutbooth is ok! 👌
 
 
 
-## 🖇CPU Frequency / CPU变频
-
-10.14.5 the CPU Frequency have some problem，only show three gear position. But the temperature and  utilization is low. And the CPU Frequency at 0.8GHz. I think it's just display wrong.
-
-
+## CPU变频
 
 在10.14.5中变频有问题，只显示三档。但是温度和CPU利用率都是很低，也是正常的。CPU频率最低在0.8GHz是正常的。可能是显示不对吧❌。
 
@@ -121,13 +85,9 @@ Blutbooth is ok! 👌
 
 
 
-## 🔌USB / USB
+## USB
 
-use the Hackintool to make a USBPorts. No case usb ports
-
-
-
-使用Hackintool创建一个了USBPorts。没有用机箱端口
+使用Hackintool创建一个了USBPorts。没有用机箱端口。
 
 ![usb](./pic/USBPort.png)
 
@@ -137,11 +97,7 @@ use the Hackintool to make a USBPorts. No case usb ports
 
 
 
-## 🎥Video hard decoding / 视频硬解码
-
-use the UHD630 and RX590 to hard decoding
-
-
+## 视频硬解码
 
 使用核显和独显进行硬解码
 
