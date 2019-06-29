@@ -13,11 +13,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>FixDarwin</key>
 				<false/>
 				<key>FixDisplay</key>
-				<true/>
+				<false/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixShutdown</key>
@@ -31,30 +31,44 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
+					<string>change EHC1 to EH01</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SERBUw==
+					RUhDMQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					SERFRg==
+					RUgwMQ==
 					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change GFX0 to IGPU</string>
+					<string>change EHC2 to EH02</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					R0ZYMA==
+					RUhDMg==
 					</data>
 					<key>Replace</key>
 					<data>
-					SUdQVQ==
+					RUgwMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					V0VoRE1R
+					</data>
+					<key>Replace</key>
+					<data>
+					V0VoRFh3
 					</data>
 				</dict>
 			</array>
@@ -63,15 +77,6 @@
 			<key>SlpSmiAtWake</key>
 			<false/>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-		</array>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -100,7 +105,7 @@
 		<key>StrictHibernate</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>6</integer>
+		<integer>1</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -156,6 +161,30 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Windows10</string>
+					<key>Hidden</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Image</key>
+					<string>\EFI\CLOVER\themes\Bootcamp4k\icons\vol_internal_ntfs.icns</string>
+					<key>Path</key>
+					<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Volume</key>
+					<string>F36CD499-9F9F-4B5F-B215-276349D8AC5D</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Hide</key>
 		<array>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
@@ -188,9 +217,9 @@
 			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>3840x2160</string>
 		<key>Theme</key>
-		<string>Minimalism</string>
+		<string>Bootcamp4K</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -242,47 +271,6 @@
 		</array>
 		<key>KernelXCPM</key>
 		<false/>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14 beta10</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dkBI/wVi9Ac=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				60BI/wVi9Ac=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
-		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>

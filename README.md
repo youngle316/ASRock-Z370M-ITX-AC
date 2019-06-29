@@ -6,6 +6,8 @@
 
 ### 2019-06-29
 
+> 4K是真的爽🤙
+
 + Update `Clover` 4972
 + Change  `VirtualSMC` to `FakeSMC`
 + Delete `AptioMemoryFix-64.efi`
