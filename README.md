@@ -91,7 +91,8 @@
 
 ## 蓝牙
 
-Blutbooth is ok! 👌
+Blutbooth ok! 👌
+[驱动方式](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html)
 
 ![bluetooth](./pic/bluetooth.png)
 
