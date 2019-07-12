@@ -26,7 +26,7 @@
 
 + Update `Clover` 4980
 + Update `Lilu` v1.3.7
-+ Update `WhateeverGreen` v1.3.0
++ Update `WhateverGreen` v1.3.0
 + Update `AppleALC` v1.3.9
 + Add `BrcmBluetoothInjector.kext` 驱动蓝牙和WIFI
 + Change `FakeSMC` to `VirtualSMC 1.0.6` 这俩作用都是一样的，后面这个更好一些。
@@ -49,7 +49,7 @@
 
 + Update `Clover` 4961
 + Update `Lilu` v1.3.6
-+ Update `WhateeverGreen` v1.2.9
++ Update `WhateverGreen` v1.2.9
 + Update `AppleALC` v1.3.8
 + Update `CPUFriengd` v1.1.7
 + Change `FakeSMC` to `VirtualSMC`
