@@ -298,7 +298,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02918500GUKGQGJC</string>
+		<string>C02946270J9KGQGUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -328,16 +328,16 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02YN0D9JWDW</string>
+		<string>C02ZP0YCJWDW</string>
 		<key>SmUUID</key>
-		<string>8A13DBFC-930E-49D4-A4B6-1A72005AA65F</string>
+		<string>7520B338-1677-42B2-9D7A-F30612D2FCAB</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>44047306-FFE1-5AED-ACFD-5A8456D4E52F</string>
+		<string>52AB69DB-F089-52F7-9545-A1A07AFBB0E0</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

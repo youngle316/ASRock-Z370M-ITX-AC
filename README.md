@@ -2,7 +2,36 @@
 
 
 
+## 使用方式
+
+1. 在`Releases`中下载`EFI`
+2. 默认使用的是4K主题，需要1080p的可以将主题修改为`Minimalism`
+3. 使用`Clover Configuration`随机一个新的序列号，以防和别人重复出现不必要的问题。
+
+
+
 ## 更新日志
+
+### 2019-07-12
+
+> 强迫症更新了测试版，总体来说变化不大，可以流畅使用。
+
+10.15 db3存在的问题有
+
+1. 夜览功能不能正常开启。需要切换分辨率，重启后又失效。
+2. sle不能写入，只能读取。
+3. 会多出一些文件夹，并且不能删。强删系统就炸了（开不了机了，我试过😂）
+
+
+
++ Update `Clover` 4980
++ Update `Lilu` v1.3.7
++ Update `WhateeverGreen` v1.3.0
++ Update `AppleALC` v1.3.9
++ Add `BrcmBluetoothInjector.kext` 驱动蓝牙和WIFI
++ Change `FakeSMC` to `VirtualSMC 1.0.6` 这俩作用都是一样的，后面这个更好一些。
+
+
 
 ### 2019-06-29
 
@@ -41,13 +70,19 @@
 
 
 
+## 系统偏好设置
+
+![关于本机](./pic/系统偏好设置.png)
+
+
+
 ## 配置
 
 | 名称      | 详情                           |
 | --------- | ------------------------------ |
 | 主板      | 华擎Z370m-ITX/ac               |
 | 处理器    | 英特尔酷睿 i5-8400             |
-| 内存条    | 海盗船复仇者LPX DDR4 3000 8G*2 |
+| 内存      | 海盗船复仇者LPX DDR4 3000 8G*2 |
 | 显卡      | 蓝宝石RX590                    |
 | 硬盘1     | 三星960EVO 250G (windows)      |
 | 硬盘2     | 三星860EVO 250G (macos)        |
@@ -92,7 +127,9 @@
 ## 蓝牙
 
 Blutbooth ok! 👌
-[驱动方式](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html)
+[10.14驱动方式](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html)
+
+10.15 db3的驱动方式与上面的不同，新增了一个`BrcmBluetoothInjector.kext`
 
 ![bluetooth](./pic/bluetooth.png)
 
@@ -107,8 +144,6 @@ id设为1
 
 
 ## CPU变频
-
-在10.14.5中变频有问题，只显示三档。但是温度和CPU利用率都是很低，也是正常的。CPU频率最低在0.8GHz是正常的。可能是显示不对吧❌。
 
 ![audio](./pic/cpu变频.png)
 
