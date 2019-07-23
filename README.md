@@ -12,6 +12,23 @@
 
 ## 更新日志
 
+### 2019-07-23
+
+> 放弃测试版，已升级10.14最后一个正式版10.14.6
+
+- Update `Clover` 5018
+- Update `Lilu` v1.3.8
+- Update `WhateverGreen` v1.3.1
+- Update `AppleALC` v1.4.0
+- Update `CPUFriend` v1.1.9
+- Update `VirtualSMC` v1.0.7
+- Update `AirportBrcmFixup` v2.0.3
+- Change `SMBIOS` iMac19.1
+- USB端口重新定制（去除了主板上靠近蓝牙的两个USB，添加了机箱端口）
+  - [使用Hackintool定制自己的USB](https://younglele.cn/post/use-hackintool-custom-made-usb3.0/)
+
+
+
 ### 2019-07-12
 
 > 强迫症更新了测试版，总体来说变化不大，可以流畅使用。
@@ -94,10 +111,11 @@
 
 ## 不工作
 
-+ 睡眠会立即唤醒
++ ~~睡眠会立即唤醒~~
   + ~~但是拔掉USB就可以正常睡眠。可能是定制的USB有问题吧。但是USB的速度是正常的。~~
-  + 原因是 我的键盘是ikbc C104，这个键盘有问题。拔掉就可以正常睡眠，并且这个键盘mac识别不出型号。
-+ iMessage和FaceTime不可用
+  + ~~原因是 我的键盘是ikbc C104，这个键盘有问题。拔掉就可以正常睡眠，并且这个键盘mac识别不出型号。~~
+  + 使用新的键盘tada68，蓝牙和有线连接都正常睡眠，唤醒也没有问题。
++ 没有设备，测试不了iMessage和FaceTime
 
 总的来说，不完美，不过影响不大。
 
@@ -152,13 +170,25 @@ id设为1
 
 ## USB
 
-使用Hackintool创建一个了USBPorts。没有用机箱端口。
+~~使用Hackintool创建一个了USBPorts。没有用机箱端口。~~
+
+7月23：重新定制了新的USB
+
+[使用Hackintool定制自己的USB](https://younglele.cn/post/use-hackintool-custom-made-usb3.0/)
 
 ![usb](./pic/USBPort.png)
 
 ![usb](./pic/USB2.png)
 
 ![usb](./pic/USB3.png)
+
+
+
+## 显卡
+
+![显卡](./pic/显卡.png)
+
+
 
 
 
@@ -176,7 +206,7 @@ id设为1
 
 ## 🍎总结
 
-我也只是个黑苹果的小白，这些东西都是看论坛和大佬的博客学到的。日常使用没有任何问题，睡眠问题对于我来说影响不大。以后有时间再看看，使黑苹果更完美。
+我也只是个黑苹果的小白，这些东西都是看论坛和大佬的博客学到的。日常使用没有任何问题。以后有时间再看看，使黑苹果更完美。
 
 
 

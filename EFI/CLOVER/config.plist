@@ -92,6 +92,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string></string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -279,10 +281,10 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02918500GUKGQGJC</string>
+		<string>C02935301QXLNV9UE</string>
 		<key>ROM</key>
 		<data>
-		vJXFWqZf
+		0CvmwyK8
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -292,13 +294,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM192.88Z.F000.B00.1902181222</string>
+		<string>IM191.88Z.F000.B00.1902181222</string>
 		<key>Board-ID</key>
-		<string>Mac-63001698E7A34814</string>
+		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02946270J9KGQGUE</string>
+		<string>C02925130GULNV91F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -326,18 +328,18 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac19,2</string>
+		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02ZP0YCJWDW</string>
+		<string>C02YWPY4JV3Q</string>
 		<key>SmUUID</key>
-		<string>7520B338-1677-42B2-9D7A-F30612D2FCAB</string>
+		<string>92D98DC8-39AC-4FF9-B11B-BC258AC322BC</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>52AB69DB-F089-52F7-9545-A1A07AFBB0E0</string>
+		<string>AC8C30D2-83DE-58A6-91F6-6E7282FF3195</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
