@@ -81,7 +81,7 @@
 Blutbooth ok! 👌
 [10.14驱动方式](https://blog.daliansky.net/Broadcom-BCM94352z-DW1560-drive-new-posture.html)
 
-10.15 db3的驱动方式与上面的不同，新增了一个`BrcmBluetoothInjector.kext`
+10.15 的驱动方式与上面的不同，新增了一个`BrcmBluetoothInjector.kext`
 
 ![bluetooth](./pic/bluetooth.png)
 
