@@ -36,14 +36,6 @@
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>5100</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				GAAAAA==
@@ -52,10 +44,8 @@
 				<dict>
 					<key>HS03</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>1</integer>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -63,10 +53,8 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>1</integer>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -74,8 +62,6 @@
 					</dict>
 					<key>HS07</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -85,8 +71,6 @@
 					</dict>
 					<key>HS08</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -96,8 +80,6 @@
 					</dict>
 					<key>HS09</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -107,8 +89,6 @@
 					</dict>
 					<key>HS10</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -118,8 +98,6 @@
 					</dict>
 					<key>HS11</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -129,8 +107,6 @@
 					</dict>
 					<key>HS12</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>2</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -140,8 +116,6 @@
 					</dict>
 					<key>HS13</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -151,8 +125,6 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -162,8 +134,6 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -173,8 +143,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -184,8 +152,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -195,8 +161,6 @@
 					</dict>
 					<key>SS07</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -206,8 +170,6 @@
 					</dict>
 					<key>SS08</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>3</integer>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>

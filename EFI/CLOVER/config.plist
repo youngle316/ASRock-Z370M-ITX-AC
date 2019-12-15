@@ -281,10 +281,10 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C02935301QXLNV9UE</string>
+		<string>C02Z90PZJV3QYANGL</string>
 		<key>ROM</key>
 		<data>
-		AeF/6uJN
+		cIXCfZdu
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -300,7 +300,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02935301QXLNV9UE</string>
+		<string>C02Z90PZJV3QYANGL</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -332,14 +332,14 @@
 		<key>SerialNumber</key>
 		<string>C02Z90PZJV3Q</string>
 		<key>SmUUID</key>
-		<string>9E007125-833D-59F7-8C70-E693F1EAE24D</string>
+		<string>9E007125-833D-59F7-8C70-7085c27d976e</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>9E007125-833D-59F7-8C70-E693F1EAE24D</string>
+		<string>9E007125-833D-59F7-8C70-7085C27D976E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
