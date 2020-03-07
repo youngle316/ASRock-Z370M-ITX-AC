@@ -35,13 +35,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
+					<data>RUhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -49,13 +45,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
+					<data>RUhDMg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -63,13 +55,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					V0VoRE1R
-					</data>
+					<data>V0VoRE1R</data>
 					<key>Replace</key>
-					<data>
-					V0VoRFh3
-					</data>
+					<data>V0VoRFh3</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -93,7 +81,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string></string>
+		<string>-disablegfxfirmware</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -132,15 +120,11 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwCSPg==
-				</data>
+				<data>AwCSPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device-id</key>
-				<data>
-				kj4AAA==
-				</data>
+				<data>kj4AAA==</data>
 				<key>device_type</key>
 				<string>Display controller</string>
 				<key>hda-gfx</key>
@@ -262,13 +246,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				ILniAAAADzA=
-				</data>
+				<data>ILniAAAADzA=</data>
 				<key>Replace</key>
-				<data>
-				ILniAAAAkJA=
-				</data>
+				<data>ILniAAAAkJA=</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -280,27 +260,23 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>MLB</key>
-		<string>C02Z90PZJV3QYANGL</string>
 		<key>ROM</key>
-		<data>
-		cIXCfZdu
-		</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/18/2019</string>
+		<string>10/30/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1902181222</string>
+		<string>IM191.88Z.F000.B00.1910301745</string>
 		<key>Board-ID</key>
 		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02Z90PZJV3QYANGL</string>
+		<string>C02938306J9LNV9FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -312,13 +288,13 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.368.0.0</string>
+		<string>1037.60.50.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xFD8FF576</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFFDFFF7F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -326,20 +302,20 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>0x22</string>
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02Z90PZJV3Q</string>
+		<string>C02ZF0CVJV3Q</string>
 		<key>SmUUID</key>
-		<string>9E007125-833D-59F7-8C70-7085c27d976e</string>
+		<string>098F692A-8B94-4791-8F58-12FC035E14FE</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>9E007125-833D-59F7-8C70-7085C27D976E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

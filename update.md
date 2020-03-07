@@ -1,5 +1,15 @@
 ## 更新日志
 
+### 2020-03-07
+
+> 升级到10.15.4(19E242d)测试版（新增了HDR功能）
+
++ 修复iMessage，FaceTime和HandOff功能
+  + 修复方法可查看这篇[文章](https://younglele.cn/fix-iMessage-and-FaceTime-for-hackintosh/)
++ Update `Clover` 5104
++ Update `AppleALC` v1.4.6
++ Add EmuVariableUefi-64.efi 用于修复iMessage和FaceTime
+
 ### 2020-01-29
 
 > 升级到10.15.3(19D76)版本

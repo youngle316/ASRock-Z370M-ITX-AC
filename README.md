@@ -16,13 +16,13 @@
 
 ## 关于本机
 
-![关于本机](./pic/关于本机.png)
+![关于本机](./pic/about.png)
 
 
 
 ## 系统偏好设置
 
-![关于本机](./pic/系统偏好设置.png)
+![关于本机](./pic/system.png)
 
 
 
@@ -30,13 +30,13 @@
 
 | 名称      | 详情                           |
 | --------- | ------------------------------ |
-| 主板      | 华擎Z370m-ITX/ac               |
+| 主板      | 华擎Z370M-ITX/AC               |
 | 处理器    | 英特尔酷睿 i5-8400             |
 | 内存      | 海盗船复仇者LPX DDR4 3000 8G*2 |
 | 显卡      | 蓝宝石RX590                    |
 | 硬盘1     | 三星960EVO 250G (windows)      |
 | 硬盘2     | 三星860EVO 250G (macos)        |
-| 硬盘3     | HHD 500G (存储与TimeMachine)   |
+| 硬盘3     | 希捷2T (存储与TimeMachine)     |
 | 显示器    | LG 27ul500                     |
 | WIFI+蓝牙 | BCM94352Z / DW1560             |
 
@@ -48,9 +48,10 @@
   + ~~但是拔掉USB就可以正常睡眠。可能是定制的USB有问题吧。但是USB的速度是正常的。~~
   + ~~原因是 我的键盘是ikbc C104，这个键盘有问题。拔掉就可以正常睡眠，并且这个键盘mac识别不出型号。~~
   + 使用新的键盘tada68，蓝牙和有线连接都正常睡眠，唤醒也没有问题。
-+ 没有设备，测试不了iMessage和FaceTime
++ ~~没有设备，测试不了iMessage和FaceTime~~
+  + iMessage和FaceTime正常（2020-03-07更新）
 
-总的来说，不完美，不过影响不大。
+~~总的来说，不完美，不过影响不大。~~
 
 
 
@@ -75,6 +76,22 @@
 ![monitor](./pic/monitor.png)
 
 
+
+## iMessage，FaceTime，接力和隔空投送正常
+
+iMessage和FaceTime的修复可以参考这篇[文章](https://younglele.cn/fix-iMessage-and-FaceTime-for-hackintosh/)
+
++ iMessage
+
+![iMessage](./pic/iMessage.png)
+
++ 接力
+
+![handoff](./pic/handoff.png)
+
++  隔空投送
+
+![AirDrop](./pic/AirDrop.jpg)
 
 ## 蓝牙
 
@@ -119,7 +136,7 @@ id设为1
 
 ## 显卡
 
-![显卡](./pic/显卡.png)
+![显卡](./pic/card.png)
 
 
 
