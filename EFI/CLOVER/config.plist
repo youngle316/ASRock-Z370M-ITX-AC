@@ -276,7 +276,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02938306J9LNV9FB</string>
+		<string>C029446094NLNV9FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -306,9 +306,9 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02ZF0CVJV3Q</string>
+		<string>C02ZMTYXJV3Q</string>
 		<key>SmUUID</key>
-		<string>098F692A-8B94-4791-8F58-12FC035E14FE</string>
+		<string>70E0FFD0-76FF-471A-8547-7D8AE4BBDF8F</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
