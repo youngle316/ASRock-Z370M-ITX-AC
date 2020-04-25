@@ -1,5 +1,14 @@
 ## 更新日志
 
+### 2020-04-25
+
++   Delete EmuVariableUefi-64.efi。添加后`iMessage`可用，却引入了启动倒数失效的问题。删除后`iMessage`仍可用，也无启动等问题
++   Update`Clover`5114
++   Update `Lilu` v1.4.3
++   Update `WhateverGreen` v1.3.8
++   Update `AppleALC` v1.4.8
++   显示器支持音箱时，可使用[MonitorControl](https://github.com/the0neyouseek/MonitorControl)来控制显示器的亮度和声音
+
 ### 2020-03-27
 
 > 升级到10.15.4正式版
