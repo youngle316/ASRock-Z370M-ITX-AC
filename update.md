@@ -1,5 +1,11 @@
 ## 更新日志
 
+### 2020-05-30
+
++   Update `Lilu` v1.4.4
++   Update `WhateverGreen` v1.3.9
++   Update `AppleALC` v1.4.9
+
 ### 2020-04-25
 
 +   Delete EmuVariableUefi-64.efi。添加后`iMessage`可用，却引入了启动倒数失效的问题。删除后`iMessage`仍可用，也无启动等问题
