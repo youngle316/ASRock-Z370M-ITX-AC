@@ -2,6 +2,8 @@
 
 ### 2020-05-30
 
+>   升级到 10.15.5 正式版
+
 +   Update `Lilu` v1.4.4
 +   Update `WhateverGreen` v1.3.9
 +   Update `AppleALC` v1.4.9
