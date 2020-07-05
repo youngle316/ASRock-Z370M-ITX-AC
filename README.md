@@ -4,11 +4,29 @@
 
 ## 使用方式
 
-1. 在`Releases`中下载`EFI`
-2. 默认使用的是4K主题，需要1080p的可以将主题修改为`Minimalism`
-3. 使用`Clover Configuration`随机一个新的序列号，以防和别人重复出现不必要的问题。
+1.  已切换为最新的 [OpenCore](https://github.com/acidanthera/OpenCorePkg)引导系统，可日常正常使用。
+2.  在 [Release](https://github.com/youngle316/ASRock-Z370M-ITX-AC/releases) 中下载最新的`EFI`
+3. 使用`OpenCore Configurator `随机一个新的序列号，以防和别人重复出现不必要的问题。
 
+## BIOS设置
 
+### 关闭
+
+-   Fast Boot
+-   Secure Boot
+-   VT-d
+-   CSM
+-   Intel SGX
+-   Intel Platform Trust
+-   CFG Lock （ 这一项必须设置为不可用 ）
+
+### 可用
+
+-   VT-x
+-   Above 4G decoding
+-   Hyper-Threading
+-   EHCI/XHCI Hand-off
+-   DVMT Pre-Allocated(iGPU Memory): 64MB
 
 ## 更新日志
 
