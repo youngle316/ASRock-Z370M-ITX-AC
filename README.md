@@ -36,8 +36,6 @@
 
 ![关于本机](./pic/about.png)
 
-
-
 ## 系统偏好设置
 
 ![关于本机](./pic/system.png)

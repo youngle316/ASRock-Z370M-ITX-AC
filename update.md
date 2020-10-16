@@ -1,5 +1,14 @@
 ## 更新日志
 
+### 2020-10-16
+
+> 升级到 10.15.7 正式版
+
++   Update `OpenCore` v0.6.2
++   Update `Lilu` v1.4.8
++   Update `WhateverGreen` v1.4.3
++   Update `AppleALC` v1.5.3
+
 ### 2020-07-05
 
 >   迁移到OC引导，版本为0.5.9
