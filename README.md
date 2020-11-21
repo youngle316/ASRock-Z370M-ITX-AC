@@ -2,6 +2,8 @@
 
 
 
+已更新至`macOS Big Sur`，所有功能与之前保持一致，均可正常使用。
+
 ## 使用方式
 
 1.  已切换为最新的 [OpenCore](https://github.com/acidanthera/OpenCorePkg)引导系统，可日常正常使用。
