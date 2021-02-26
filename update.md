@@ -1,5 +1,15 @@
 ## 更新日志
 
+### 2021-02-26
+
+> 升级到 11.2.1 版本
+
++ Update `Lilu` v1.5.1
++ Update `WhateverGreen` v1.4.7
++ Update `AppleALC` v1.5.7
+
+没有更新`OpenCore`至最新版
+
 ### 2020-11-21
 
 > 升级到 11.0.1 全新版本
